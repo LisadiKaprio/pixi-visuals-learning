@@ -24,7 +24,7 @@ function createCircle(x: number, y: number): PIXI.Sprite {
 }
 
 function setup() {
-    for (let i = 0; i < 100; i++) {
+    for (let i = 0; i < 10; i++) {
         const x = Math.random() * app.screen.width;
         const y = -Math.random() * app.screen.height; // Start above the canvas
 
